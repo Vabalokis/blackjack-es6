@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <title>Blackjack es6</title>
+    <script type="text/javascript" src="js/blackjack.js"></script>
+</head>
+
+<body>
+
+
+<div class="gameArea">
+
+<h1>BLACKJACK</h1>
+
+
+
+<div class="buttonSection">
+
+<button id="newgamebutton" >NEW GAME</button>
+<button id="hitbutton">HIT</button>
+<button id="standbutton" >STAND</button>
+
+</div>
+
+<div id="winnerstatus"></div>
+
+<div id="cardSection" class="cardSection">
+
+<div class="playerCards">
+    <p id="playerCardsValue" class="value"></p>
+    <div id="playercards"></div>
+    <p class="backgroundtitle">PLAYER</p>
+</div>
+<div class="dealerCards">
+    <p id="dealerCardsValue" class="value"></p>
+    <div id="dealercards"></div>
+    <p class="backgroundtitle">DEALER</p>
+</div>
+
+
+</div>
+
+</div>
+
+
+<script>
+document.addEventListener("DOMContentLoaded",()=>{
+    init();
+});    
+</script>
+
+</body>
+
+
+</html>

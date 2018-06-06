@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background: grey;
+    
+}
+
+h1 {
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 6vh;
+}
+
+.gameArea {
+    
+    margin: 3% auto;
+    width: 50%;
+    background: rgb(25, 95, 48);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.39);
+    
+}
+
+.buttonSection {
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+.buttonSection button {
+    font-size: 18px;
+    padding: 5px;
+    background: rgb(0, 124, 37);
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+
+
+.buttonSection button:hover {
+    background: rgb(109, 184, 109);
+    cursor: pointer;
+}
+
+.cardSection {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow:hidden;
+    border-radius: 4px;
+}
+
+.playerCards {
+    background: rgba(0, 255, 0, 0.199);
+    
+    
+}
+
+.dealerCards {
+    background: rgba(255, 0, 0, 0.452);
+    
+    
+}
+
+.backgroundtitle {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 7vw;
+    text-align: center;
+    user-select: none;
+    cursor: default;
+} 
+
+
+.value {
+    font-size: 20px;
+    color: white;
+    margin-left: 2%;
+}
+
+
+#cardImage {
+    margin:  5px 0 0 10px;
+}
+
+#winnerstatus {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
